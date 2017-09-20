@@ -5,16 +5,16 @@
 
 @font-face {
 	font-family:ferari;
-	src:url(../black.ttf);
+	src:url(black.ttf);
 }
 @font-face{
 	font-family: pecita;
-	src:url(../pecita.otf);
+	src:url(pecita.otf);
 }
 
 @font-face{
 	font-family: zrnic;
-	src:url(../zrnic.ttf);
+	src:url(zrnic.ttf);
 }
 
 body {
