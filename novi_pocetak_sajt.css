@@ -1,0 +1,111 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+@font-face {
+	font-family:ferari;
+	src:url(../black.ttf);
+}
+@font-face{
+	font-family: pecita;
+	src:url(../pecita.otf);
+}
+
+@font-face{
+	font-family: zrnic;
+	src:url(../zrnic.ttf);
+}
+
+body {
+	font-family: ferari;
+	background: BlanchedAlmond;
+}
+
+header{
+	background: white;
+}
+
+#wrapp{
+	width: 90%;
+	margin: 0 auto;
+}
+
+header img {
+	float: left;
+}
+
+header h1 {
+	float: right;
+	font-size: 3em;
+	margin-right: 200px;
+	margin-top: 20px;
+	font-family: ferari;
+
+}
+
+.clr{
+	clear: both;
+}
+
+nav ul{
+	list-style: none;
+}
+
+nav ul li{
+	font-family: zrnic;
+	display: inline-block;
+	width: 130px;
+	height: 50px;
+	line-height: 20px;
+	margin-right: 40px;
+	font-size: 1.3em
+}
+nav ul li:first-child {
+	margin-left: 20px;
+
+}
+nav ul li:hover{
+	color: red;
+	cursor: pointer;
+}
+
+article{
+	padding: 30px
+}
+
+article img {
+	float: left;
+	    width: 400px;
+	    margin-right: 40px;
+}
+
+article h2{
+	text-align: center;
+	font-size: 2em;
+	color: saddlebrown;
+}
+article p{
+	padding: 20px;
+	font-family: pecita;
+	font-size: 1.2em;
+	color: Peru;
+	opacity: 0.65;
+
+}
+
+.cena {
+	font-family: dejavu sans mono;
+	font-size: 3em;
+	text-align: center;
+}
+.cena span{
+	font-size: 1.5em;
+	color: red;
+}
+.hr {
+	width: 70%;
+	border-bottom: 2px solid blue;
+	box-shadow: 5px 5px 5px grey;
+	margin: 50px auto;
+}
